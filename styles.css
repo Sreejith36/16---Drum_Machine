@@ -3,18 +3,21 @@
     color: blue;
     letter-spacing: 2px;
 }
-#drum-machine{
+
+#drum-machine {
     width: 30%;
     margin: 50px auto;
     background-color: grey;
-    padding: 20px;
+    padding: 15px;
     border-radius: 8px;
     box-shadow: 3px 5px 8px gray;
 }
+
 #display h2 {
     text-align: center;
     color: #ffff00;
 }
+
 .drum-pad {
     padding: 8px 14px;
     margin: 5px 5px;
@@ -50,7 +53,7 @@
     background-color: #131591;
     box-shadow: 0 4px #666;
     transform: translateY(2px);
-} 
+}
 
 footer p {
     text-align: center;
@@ -60,22 +63,36 @@ footer p {
 
 @media only screen and (max-width: 800px) {
     body {
-      background-color: lightblue;
+        background-color: lightblue;
     }
 
-    #drum-machine{
+    #drum-machine {
         width: 95%;
         margin: 50px auto;
-        
+
     }
+
     #display {
-        display: flex;
+        width: 98%;
+        /* display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
-        
+        align-items: center; */
+
     }
-   
-  }
 
+    .keypad{
+        display: block;
+        width: 99%;
+        margin: 1px auto;
+        /* height: 100%; */
+    }
 
+    .drum-pad {
+        padding: 4px 8px;
+        margin: 2px 2px;
+        width: 30%;
+        height: 70px;
+    }
+
+}
